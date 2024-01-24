@@ -13,7 +13,7 @@ def gerar_senha(comprimento, incluir_numeros, incluir_maiusculas, incluir_especi
     senha = ''.join(random.choice(caracteres) for _ in range(comprimento))
     return senha
 
-# Exemplo de uso
+
 comprimento = int(input("Digite o comprimento da senha: "))
 numeros = input("Incluir números? (s/n): ").lower() == 's'
 maiusculas = input("Incluir letras maiúsculas? (s/n): ").lower() == 's'
