@@ -22,7 +22,7 @@ def listar_livros():
 # Criar o arquivo CSV se não existir
 criar_arquivo_csv()
 
-# Menu interativo
+
 while True:
     print("\n=== Gerenciador de Biblioteca Pessoal ===")
     print("1. Adicionar Livro")
